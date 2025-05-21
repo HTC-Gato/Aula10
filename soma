@@ -1,0 +1,26 @@
+<html>
+    <body>
+
+        <label>Valor 1</label>
+        <input id="num1"> <br><br>
+        <label>Valor 2</label>
+        <input id="num2"> <br><br>
+        <label>RESULTADO:</label>
+         <span id="resultado"> 0 </span>
+         <br><br>
+        <button onclick="SOMA()">SOMA</button>
+        
+  
+
+        <script>
+
+       function SOMA() {
+           let num1 = parseInt(document.getElementById("num1").value);
+           let num2 = parseInt(document.getElementById("num2").value);
+           document.getElementById("resultado").innerText = num1 + num2;
+       }
+           
+       
+        </script>
+    </body>
+</html>
