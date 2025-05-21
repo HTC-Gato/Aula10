@@ -1,0 +1,30 @@
+<html>
+     <body>
+         <script>
+function MULTIPLICAÇÃO(n1, n2){
+            let resultado = n1 * n2;
+
+            console.log(resultado);
+       }
+       MULTIPLICAÇÃO(30, 10);
+       function SUBTRAÇÃO(n1, n2){
+            let resultado = n1 - n2;
+
+            console.log(resultado);
+       }
+       SUBTRAÇÃO(30, 10);
+       function DIVISÃO(n1, n2){
+            let resultado = n1 / n2;
+
+            console.log(resultado);
+       }
+       DIVISÃO(30, 10);
+       function SOMA(n1, n2){
+            let resultado = n1 + n2;
+
+            console.log(resultado);
+       }
+       SOMA(30, 10);
+        </script>
+    </body>
+</html>
